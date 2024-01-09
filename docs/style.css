@@ -6,12 +6,11 @@
     --main-whiteColor: #fff;
 }
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color:var(--main-whiteColor);
-}
-body{
-    box-sizing: border-box;
+    font-family: system-ui,sans-serif;
 }
 h1 {
     font-size: 3.5rem;
@@ -39,6 +38,8 @@ p {
 .first a , .third a { 
     display: inline-block;
     border: 2px solid var(--main-whiteColor);
+    background: #01173963;
+    box-shadow: 2px 2px 10px var(--main-color1);
     text-decoration: none;
     font-size: 18px;
     border-radius: 10px;
@@ -59,7 +60,8 @@ p {
 }
 button{ 
     border: 2px solid var(--main-whiteColor);
-    background: none;
+    background: #01173963;
+    box-shadow: 2px 2px 10px var(--main-color1);
     font-size: 18px;
     border-radius: 10px;
     padding: 10px;
@@ -152,6 +154,7 @@ button:hover{
     border-bottom-color: var(--main-hoverColor2);
 }
 .cont footer{
+    background-color: #00000040;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     gap: 2rem;
